@@ -1,0 +1,66 @@
+<! DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset = "utf-8">
+<title> Главная </title>
+</head>
+<body>
+<div class = "header">
+	<div class = "navig">
+		<a class = "name_bar" href = "index.html"> <p class = "name_bar_text"> Главная </p>	</a> 
+		<a class = "name_bar" href = "cut.html"> <p class = "name_bar_text"> Категории </p>	</a> 
+		<a class = "name_bar" href = "cut.html"> <p class = "name_bar_text"> Платный софт </p>	</a> 
+	</div>
+</div>
+<div class = "wrapper">		
+	<div class = "container">
+		<div class = "prew"> 
+			<a href = "ps.html">
+				<img style = "width: 300px;" src = "images\photoshop.jpg">
+				<h4 class = " name_p"> Photoshop cs6 </h4>
+			</a>
+			</a>
+		</div>
+		<div class = "prew"> 
+			<a href = "win.html">
+				<img style = "width: 300px;" src = "images\Windows.jpg">
+				<h4 class = " name_p"> Windows 10 </h4>
+			</a>
+		</div>
+		<div class = "prew"> 
+			<a href = "bn.html">
+				<img style = "width: 300px;" src = "images\Bandicam.jpg">
+				<h4 class = " name_p"> Bandicam </h4>
+			</a>
+		</div>
+		<div class = "prew"> 
+			<a href = "fl.html">
+				<img style = "width: 300px;" src = "images\flstudio.jpg">
+				<h4 class = " name_p"> flstudio </h4>
+			</a>
+		</div>
+		<div class = "prew"> 
+			<a href = "auto.html">
+				<img style = "width: 300px;" src = "images\AutoCad.png">
+				<h4 class = " name_p"> AutoCad </h4>
+		</div>
+		<div class = "prew"> 
+			<a href = "mov.html">
+				<img style = "width: 300px;" src = "images\movavi.jpg">
+				<h4 class = " name_p"> Movavi </h4>
+			</a>
+		</div>
+		<div class = "prew"> 
+			<a href = "com.html">
+				<img style = "width: 300px;" src = "images\kompas.jpg">
+				<h4 class = " name_p"> Компас 3D </h4>
+			</a>
+		</div>
+	</div>
+	<div class = "footer">
+		<p> Делаем софт доступнее@ <br> По всем вопросам - Ya.boxing19988@yandex.ru </p>
+	</div>
+</div>
+</body>
+</html>
