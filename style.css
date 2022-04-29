@@ -61,6 +61,10 @@ html {
 	
 }
 
+.testing {
+	width:300px;
+}
+
 .name_p {
 	text-align: center;
 	font-family: serif;
@@ -68,9 +72,9 @@ html {
 }
 
 .prew {
-	margin-left:10px;
-	margin-top:10px;
-	margin-left:20px;
+	float:left;
+	width:300px;
+	margin: 1% 1% 0 1%;
 }
 
 .footer {
@@ -84,6 +88,23 @@ html {
 .text_footer {
 	color:white;
 }
+
+@media screen and (max-width:400px)  {
+	.name_bar_text {
+		font-size:15px;
+	}
+}
+
+@media screen and (max-width:300px)  {
+	.name_bar_text {
+		font-size:15px;
+	}
+	
+	.prew {
+		width:250px;
+	}
+}
+
  /* бандикам
 	fl studio
 	автокад
